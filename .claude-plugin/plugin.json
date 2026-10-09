@@ -1,0 +1,26 @@
+{
+  "name": "outside-chair",
+  "displayName": "Outside Chair",
+  "description": "An agent-native strategy companion for governed team viewpoints, evidence, reviews, decisions, actions, and outcomes.",
+  "version": "0.7.2",
+  "author": {
+    "name": "StewAI AG",
+    "email": "support@stewai.com",
+    "url": "https://outsidechair.com"
+  },
+  "homepage": "https://outsidechair.com",
+  "repository": "https://github.com/stewaihq/outside-chair-plugin",
+  "icon": "./assets/outside-chair-mark.svg",
+  "documentationUrl": "https://outsidechair.com/connect",
+  "supportUrl": "https://outsidechair.com/support",
+  "privacyPolicyUrl": "https://outsidechair.com/privacy",
+  "termsOfServiceUrl": "https://outsidechair.com/terms",
+  "keywords": [
+    "strategy",
+    "governance",
+    "evidence",
+    "reviews",
+    "outcomes",
+    "mcp"
+  ]
+}

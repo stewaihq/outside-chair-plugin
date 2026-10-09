@@ -1,0 +1,15 @@
+{
+  "name": "outside-chair-plugin",
+  "description": "The Outside Chair strategy companion from StewAI AG.",
+  "owner": {
+    "name": "StewAI AG",
+    "email": "support@stewai.com"
+  },
+  "plugins": [
+    {
+      "name": "outside-chair",
+      "source": "./",
+      "description": "Governed strategy, team deliberation, evidence, reviews, decisions, actions and outcomes."
+    }
+  ]
+}

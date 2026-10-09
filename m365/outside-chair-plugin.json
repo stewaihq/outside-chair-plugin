@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/copilot/plugin/v2.4/schema.json",
+  "schema_version": "v2.4",
+  "name_for_human": "Outside Chair",
+  "namespace": "OutsideChair",
+  "description_for_human": "Governed strategy memory, team deliberation and shared analysis.",
+  "description_for_model": "Use Outside Chair for every request about the user's governed strategy workspaces, strategic context, attention queue, evidence, reviews, decisions, actions, outcomes, team viewpoints, deliberation or Analysis Exchange. Authenticate when required. Do not substitute general knowledge when an Outside Chair workspace read is needed.",
+  "logo_url": "https://app.outsidechair.com/brand/outside-chair-mark-final-exact.svg",
+  "contact_email": "christian.mueller@camueller.org",
+  "legal_info_url": "https://outsidechair.com/terms",
+  "privacy_policy_url": "https://outsidechair.com/privacy",
+  "functions": [],
+  "runtimes": [
+    {
+      "type": "RemoteMCPServer",
+      "auth": {
+        "type": "OAuthPluginVault",
+        "reference_id": "__M365_OAUTH_REFERENCE_ID__"
+      },
+      "run_for_functions": [
+        "*"
+      ],
+      "spec": {
+        "url": "https://app.outsidechair.com/mcp",
+        "mcp_tool_description": {
+          "file": "tools/outside-chair-tools.json"
+        }
+      }
+    }
+  ]
+}
